@@ -7,6 +7,7 @@ trigger:
 - master
 
 pool:
+  name: 'Demo Agent'
   vmImage: ubuntu-latest
 strategy:
   matrix:
