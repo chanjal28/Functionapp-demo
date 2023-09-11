@@ -13,6 +13,9 @@ variables:
   # Function app name
   functionAppName: 'Demo-functionapp-RA'
 
+pool:
+  name: 'Agent pool'
+
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
